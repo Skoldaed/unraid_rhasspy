@@ -11,7 +11,7 @@
   <Overview></Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:12101]</WebUI>
-  <TemplateURL>https://github.com/Skoldaed/unraid_rhasspy/blob/main/rhasspy_docker.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Skoldaed/unraid_rhasspy/main/rhasspy_docker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/synesthesiam/rhasspy/master/docs/img/favicon.png</Icon>
   <PostArgs>--user-profiles /profiles --profile fr</PostArgs>
   <Description></Description>
