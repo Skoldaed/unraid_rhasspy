@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>rhasspy</Name>
-  <Repository>synesthesiam/rhasspy-server</Repository>
-  <Registry>https://hub.docker.com/r/synesthesiam/rhasspy-server/</Registry>
+  <Name>rhasspy-server</Name>
+  <Repository>rhasspy/rhasspy</Repository>
+  <Registry>https://hub.docker.com/r/rhasspy/rhasspy/</Registry>
   <Network>bridge</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Support></Support>
-  <Project>https://github.com/synesthesiam/rhasspy/</Project>
+  <Project>https://github.com/rhasspy/rhasspy</Project>
   <Overview></Overview>
   <Category>Productivity:</Category>
   <WebUI>http://[IP]:[PORT:12101]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/Tooa/rhasspy-unraid/master/templates/rhasspy.xml</TemplateURL>
+  <TemplateURL>https://github.com/Skoldaed/unraid_rhasspy/blob/main/rhasspy_docker.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/synesthesiam/rhasspy/master/docs/img/favicon.png</Icon>
-  <PostArgs>--user-profiles /profiles --profile de</PostArgs>
+  <PostArgs>--user-profiles /profiles --profile fr</PostArgs>
   <Description></Description>
   <Networking>
     <Mode>bridge</Mode>
